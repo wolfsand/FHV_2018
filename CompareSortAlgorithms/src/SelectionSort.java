@@ -8,7 +8,7 @@ public class SelectionSort implements SortStrategy {
 		for (int i=0; i<numbers.length-1; i++) {
 			min = i;
 			for ( int j=i+1; j<numbers.length; j++) {
-				if (numbers[i] < numbers[min]) {
+				if (numbers[j] < numbers[min]) {
 					min = j;
 				}					
 			}

@@ -1,6 +1,6 @@
 #SAVE
-#Sun Oct 07 14:43:22 CEST 2018
-Test=value
+#Sun Oct 07 14:55:38 CEST 2018
 ArrayLength=10000
-SortMethod=SelectionSort
 FillMethod=Random
+Test=value
+SortMethod=SelectionSort
