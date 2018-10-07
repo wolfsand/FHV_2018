@@ -1,3 +1,6 @@
 #SAVE
 #Sun Oct 07 14:43:22 CEST 2018
 Test=value
+ArrayLength=10000
+SortMethod=SelectionSort
+FillMethod=Random
