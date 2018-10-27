@@ -32,9 +32,6 @@ public class CompareSortAlgorithms {
 		System.out.println("*********************");
 		System.out.println();
 
-
-
-
 		System.out.println("done");
 
 	}

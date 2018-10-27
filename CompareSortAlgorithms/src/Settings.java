@@ -88,12 +88,17 @@ public class Settings {
 
 		String sortMethod;
 		sortMethod = properties.getProperty("SortMethod");
-		if (sortMethod == "SelectionSort") {
-			return new SelectionSort();
-		}
-		else {
-			return new SelectionSort();
-		}
+
+		switch(sortMethod) {
+            case "QuickSort":
+                return new QuickSort();
+
+            case "SelectionSort":
+                return new SelectionSort();
+
+            default:
+                throw new IllegalArgumentException("Invalid Algorithm identifier!");
+        }
 	}
 
 	public FillStrategy getFillStrategy() {
