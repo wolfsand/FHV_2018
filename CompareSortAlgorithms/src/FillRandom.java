@@ -15,7 +15,7 @@ public class FillRandom implements FillStrategy {
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return ("mit Zufallszahlen gef�llt");
+		return ("mit Zufallszahlen gefuellt");
 	}
 
 }
